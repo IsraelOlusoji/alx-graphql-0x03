@@ -7,6 +7,7 @@ const EpisodeCard = ({ id, name, air_date, episode }: EpisodeCardProps) => {
     <div className="flex justify-between items-center">
 <h2 className=" text-xl font-semibold text-gray-800 ">
     {name}
+    
 </h2>
 <span className=" border px-2 text-xs rounded-full bg-blue-600 text-white flex items-center">
     {episode}
